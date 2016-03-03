@@ -1,18 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/16/2016 4:07:44 AM
-
-BeginCmp
-TimeStamp = /5609518A;
-Reference = C4;
-ValeurCmp = COIL_BYPASS;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5609518B;
-Reference = C5;
-ValeurCmp = COIL_BYPASS;
-IdModule  = c_0603;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/3/2016 12:05:46 AM
 
 BeginCmp
 TimeStamp = /5609518C;
@@ -31,27 +17,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5609518E;
 Reference = C8;
-ValeurCmp = COIL_BYPASS;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5609518F;
-Reference = C9;
-ValeurCmp = COIL_BYPASS;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56095190;
-Reference = C10;
-ValeurCmp = COIL_BYPASS;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56095191;
-Reference = C11;
 ValeurCmp = COIL_BYPASS;
 IdModule  = c_0603;
 EndCmp
@@ -134,66 +99,10 @@ IdModule  = 1209;
 EndCmp
 
 BeginCmp
-TimeStamp = /56094E3B;
-Reference = C26;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56094E4E;
-Reference = C27;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56094E4D;
-Reference = C28;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56094E42;
-Reference = C29;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56094E41;
-Reference = C30;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56094E4F;
-Reference = C31;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /56094E3C;
-Reference = C32;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /560D06C3;
 Reference = C33;
 ValeurCmp = .22u;
 IdModule  = c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /56094E50;
-Reference = C34;
-ValeurCmp = VCC_BYP;
-IdModule  = c_0603;
 EndCmp
 
 BeginCmp
@@ -288,6 +197,13 @@ IdModule  = 1209;
 EndCmp
 
 BeginCmp
+TimeStamp = /56D7C5E1;
+Reference = D2;
+ValeurCmp = LED_RED;
+IdModule  = 1209;
+EndCmp
+
+BeginCmp
 TimeStamp = /56094EC3;
 Reference = D3;
 ValeurCmp = LED_GREEN;
@@ -341,6 +257,20 @@ TimeStamp = /56094E83;
 Reference = D10;
 ValeurCmp = BZX84C10L;
 IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D7C16C;
+Reference = D11;
+ValeurCmp = LED_RED;
+IdModule  = 1209;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D7C14E;
+Reference = D12;
+ValeurCmp = LED_RED;
+IdModule  = 1209;
 EndCmp
 
 BeginCmp
@@ -484,13 +414,6 @@ IdModule  = DELTRON BANANA;
 EndCmp
 
 BeginCmp
-TimeStamp = /56134192;
-Reference = P24;
-ValeurCmp = COIL_POW+;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /56094EC1;
 Reference = Q1;
 ValeurCmp = STS1DNC45;
@@ -561,6 +484,20 @@ IdModule  = c_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /56D7C600;
+Reference = R6;
+ValeurCmp = 2.2k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D7C5E9;
+Reference = R7;
+ValeurCmp = 2.2k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /56094ED7;
 Reference = R8;
 ValeurCmp = 12k;
@@ -572,6 +509,13 @@ TimeStamp = /56094ED9;
 Reference = R9;
 ValeurCmp = 12k;
 IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D7D36A;
+Reference = R10;
+ValeurCmp = 2.2k;
+IdModule  = c_0805;
 EndCmp
 
 BeginCmp
@@ -1033,28 +977,28 @@ BeginCmp
 TimeStamp = /56BB0353;
 Reference = R78;
 ValeurCmp = 22;
-IdModule  = c_0603;
+IdModule  = c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /56BB0B0A;
 Reference = R79;
 ValeurCmp = 22;
-IdModule  = c_0603;
+IdModule  = c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /56BB216D;
 Reference = R80;
 ValeurCmp = 22;
-IdModule  = c_0603;
+IdModule  = c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /56BB1B3D;
 Reference = R81;
 ValeurCmp = 22;
-IdModule  = c_0603;
+IdModule  = c_0805;
 EndCmp
 
 BeginCmp
