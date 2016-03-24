@@ -1,882 +1,952 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/15/2016 7:50:25 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/24/2016 2:59:09 AM
+
+BeginCmp
+TimeStamp = /56F38CE1;
+Reference = C1;
+ValeurCmp = 330u;
+IdModule  = FR-A_50v;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38CDB;
+Reference = C2;
+ValeurCmp = 1u;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38CD5;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38CC8;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3859F;
+Reference = C5;
+ValeurCmp = 120u;
+IdModule  = FR-A_50v;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3B90D;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = 1209;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3B92E;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = 1209;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3D17D;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = 1209;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38590;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = OMNI-BLOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38CAF;
+Reference = L1;
+ValeurCmp = INDUCTOR_SMALL;
+IdModule  = SDR1005;
+EndCmp
 
 BeginCmp
 TimeStamp = /56E7CB35;
 Reference = P1;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 1 LOAD3 NC;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CB4D;
 Reference = P2;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804BB;
-Reference = P3;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 3 USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CB75;
-Reference = P4;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804C1;
-Reference = P5;
-ValeurCmp = CONNECTOR;
+Reference = P3;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 2 USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CB7B;
-Reference = P6;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804C7;
-Reference = P7;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804B5;
-Reference = P8;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804CD;
-Reference = P9;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804AF;
-Reference = P10;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804A9;
-Reference = P11;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDF7;
-Reference = P12;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804A3;
-Reference = P13;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDF1;
-Reference = P14;
-ValeurCmp = CONNECTOR;
+Reference = P4;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 1 USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBD1;
-Reference = P15;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8049D;
-Reference = P16;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDEB;
-Reference = P17;
-ValeurCmp = CONNECTOR;
+Reference = P5;
+ValeurCmp = BRANCH 1 BUS 1 PROXIMAL USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBD7;
-Reference = P18;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80497;
-Reference = P19;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDE5;
-Reference = P20;
-ValeurCmp = CONNECTOR;
+Reference = P6;
+ValeurCmp = BRANCH 1 BUS 1 PROXIMAL NO;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBDD;
-Reference = P21;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804D3;
-Reference = P22;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80491;
-Reference = P23;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDDF;
-Reference = P24;
-ValeurCmp = CONNECTOR;
+Reference = P7;
+ValeurCmp = BRANCH 1 BUS 1 PROXIMAL NC;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBE3;
-Reference = P25;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804D9;
-Reference = P26;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8048B;
-Reference = P27;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDD9;
-Reference = P28;
-ValeurCmp = CONNECTOR;
+Reference = P8;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 3 NO;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBE9;
-Reference = P29;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804DF;
-Reference = P30;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80485;
-Reference = P31;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDD3;
-Reference = P32;
-ValeurCmp = CONNECTOR;
+Reference = P9;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 2 NO;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBEF;
-Reference = P33;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804E5;
-Reference = P34;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8047F;
-Reference = P35;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDCD;
-Reference = P36;
-ValeurCmp = CONNECTOR;
+Reference = P10;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 2 NC;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBF5;
-Reference = P37;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80479;
-Reference = P38;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDC7;
-Reference = P39;
-ValeurCmp = CONNECTOR;
+Reference = P11;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 1 NO;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CBFB;
-Reference = P40;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80473;
-Reference = P41;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDC1;
-Reference = P42;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8046D;
-Reference = P43;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDBB;
-Reference = P44;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80467;
-Reference = P45;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDB5;
-Reference = P46;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804EB;
-Reference = P47;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80461;
-Reference = P48;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDAF;
-Reference = P49;
-ValeurCmp = CONNECTOR;
+Reference = P12;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 1 NC;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC01;
-Reference = P50;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804F1;
-Reference = P51;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8045B;
-Reference = P52;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDA9;
-Reference = P53;
-ValeurCmp = CONNECTOR;
+Reference = P13;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 1 NO;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC07;
-Reference = P54;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804F7;
-Reference = P55;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CDA3;
-Reference = P56;
-ValeurCmp = CONNECTOR;
+Reference = P14;
+ValeurCmp = BRANCH 2 BUS 1 DISTAL NC;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC0D;
-Reference = P57;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E804FD;
-Reference = P58;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CD9D;
-Reference = P59;
-ValeurCmp = CONNECTOR;
+Reference = P15;
+ValeurCmp = BRANCH 2 BUS 1 DISTAL USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC13;
-Reference = P60;
-ValeurCmp = CONNECTOR;
+Reference = P16;
+ValeurCmp = BRANCH 2 BUS 1 DISTAL NO;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC19;
-Reference = P61;
-ValeurCmp = CONNECTOR;
+Reference = P17;
+ValeurCmp = BRANCH 2 BUS 1 PROXIMAL NC;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC1F;
-Reference = P62;
-ValeurCmp = CONNECTOR;
+Reference = P18;
+ValeurCmp = BRANCH 2 BUS 1 PROXIMAL NO;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC25;
-Reference = P63;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8059F;
-Reference = P64;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CE57;
-Reference = P65;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80503;
-Reference = P66;
-ValeurCmp = CONNECTOR;
+Reference = P19;
+ValeurCmp = MAIN BUS FAULT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC2B;
-Reference = P67;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80599;
-Reference = P68;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CE51;
-Reference = P69;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80509;
-Reference = P70;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80593;
-Reference = P71;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CE4B;
-Reference = P72;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8050F;
-Reference = P73;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8058D;
-Reference = P74;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CE45;
-Reference = P75;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80515;
-Reference = P76;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80587;
-Reference = P77;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CE3F;
-Reference = P78;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80581;
-Reference = P79;
-ValeurCmp = CONNECTOR;
+Reference = P20;
+ValeurCmp = BRANCH 2 BUS 1 PROXIMAL USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC53;
-Reference = P80;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CE39;
-Reference = P81;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E8057B;
-Reference = P82;
-ValeurCmp = CONNECTOR;
+Reference = P21;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 1 USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC59;
-Reference = P83;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E7CE33;
-Reference = P84;
-ValeurCmp = CONNECTOR;
-IdModule  = MOLEX-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /56E80575;
-Reference = P85;
-ValeurCmp = CONNECTOR;
+Reference = P22;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 1 USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /56E7CC5F;
+Reference = P23;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 1 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC65;
+Reference = P24;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 2 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC6B;
+Reference = P25;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 2 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC71;
+Reference = P26;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 3 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC77;
+Reference = P27;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 3 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC7D;
+Reference = P28;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 3 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC83;
+Reference = P29;
+ValeurCmp = CCROSSTIE 1 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC89;
+Reference = P30;
+ValeurCmp = CROSSTIE 1 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC8F;
+Reference = P31;
+ValeurCmp = COSSTIE 1 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC95;
+Reference = P32;
+ValeurCmp = BRANCH 1 BUS 1 DISTAL NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CC9B;
+Reference = P33;
+ValeurCmp = BRANCH 1 BUS 1 DISTAL USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCA1;
+Reference = P34;
+ValeurCmp = BRANCH 1 BUS 1 DISTAL NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCA7;
+Reference = P35;
+ValeurCmp = BRANCH 1 BUS 1 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCAD;
+Reference = P36;
+ValeurCmp = BRANCH 1 INTERCONNECT 1 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCB3;
+Reference = P37;
+ValeurCmp = BRANCH 1 BUS 2 PROXIMAL USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCB9;
+Reference = P38;
+ValeurCmp = BRANCH 1 BUS 2 PROXIMAL NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCBF;
+Reference = P39;
+ValeurCmp = BRANCH 1 BUS 2 PROXIMAL NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCC5;
+Reference = P40;
+ValeurCmp = BRANCH 2 BUS 2 PROXIMAL NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCCB;
+Reference = P41;
+ValeurCmp = BRANCH 2 BUS 2 PROXIMAL USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCD1;
+Reference = P42;
+ValeurCmp = BRANCH 2 BUS 2 PROXIMAL NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCD7;
+Reference = P43;
+ValeurCmp = BRANCH 2 BUS 1 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CCDD;
+Reference = P44;
+ValeurCmp = BRANCH 2 INTERCONNECT 1 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD13;
+Reference = P45;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 3 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD19;
+Reference = P46;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 2 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD1F;
+Reference = P47;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 1 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD25;
+Reference = P48;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 1 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD2B;
+Reference = P49;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 1 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD31;
+Reference = P50;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 2 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD37;
+Reference = P51;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 2 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD3D;
+Reference = P52;
+ValeurCmp = CROSSTIE 2 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD43;
+Reference = P53;
+ValeurCmp = BRANCH 1 BUS 2 DISTAL NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD49;
+Reference = P54;
+ValeurCmp = BRANCH 1 BUS 2 DISTAL NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD4F;
+Reference = P55;
+ValeurCmp = BRANCH 1 BUS 2 DISTAL USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD55;
+Reference = P56;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 3 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD5B;
+Reference = P57;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 3 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD61;
+Reference = P58;
+ValeurCmp = BRANCH 1 BUS 2 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD67;
+Reference = P59;
+ValeurCmp = BRANCH 1 INTERCONNECT 2 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD6D;
+Reference = P60;
+ValeurCmp = BRANCH 2 INTERCONNECT 2 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD73;
+Reference = P61;
+ValeurCmp = BRANCH 2 BUS 2 FAULT;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD79;
+Reference = P62;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 1 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD7F;
+Reference = P63;
+ValeurCmp = BRANCH 2 BUS 2 DISTAL NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD85;
+Reference = P64;
+ValeurCmp = BRANCH 2 BUS 2 DISTAL USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD8B;
+Reference = P65;
+ValeurCmp = BRANCH 2 BUS 2 DISTAL NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD91;
+Reference = P66;
+ValeurCmp = CROSSTIE 2 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CD97;
+Reference = P67;
+ValeurCmp = CROSSTIE 2 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CEBD;
+Reference = P68;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 3 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CEC3;
+Reference = P69;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 3 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CEC9;
+Reference = P70;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 3 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CECF;
+Reference = P71;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 2 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CED5;
+Reference = P72;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 2 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CEDB;
+Reference = P73;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 2 NO;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CEE1;
+Reference = P74;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 1 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E7CEE7;
+Reference = P75;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 1 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E80665;
+Reference = P76;
+ValeurCmp = SOURCE 1 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E8066B;
+Reference = P77;
+ValeurCmp = SOURCE 1 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E80671;
+Reference = P78;
+ValeurCmp = SOURCE 2 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E80677;
+Reference = P79;
+ValeurCmp = SOURCE 2 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E8067D;
+Reference = P80;
+ValeurCmp = SOURCE 3 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E80683;
+Reference = P81;
+ValeurCmp = SOURCE 3 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E80689;
+Reference = P82;
+ValeurCmp = SOURCE 4 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E8068F;
+Reference = P83;
+ValeurCmp = SOURCE 4 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E80695;
+Reference = P84;
+ValeurCmp = SOURCE 5 USER;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E8069B;
+Reference = P85;
+ValeurCmp = SOURCE 5 NC;
+IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E806A1;
 Reference = P86;
-ValeurCmp = CONNECTOR;
+ValeurCmp = SOURCE 6 USER;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE2D;
+TimeStamp = /56E806A7;
 Reference = P87;
-ValeurCmp = CONNECTOR;
+ValeurCmp = SOURCE NC 6;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8056F;
+TimeStamp = /56E872DD;
 Reference = P88;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80533;
+TimeStamp = /56E872E3;
 Reference = P89;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC65;
+TimeStamp = /56E872E9;
 Reference = P90;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE27;
+TimeStamp = /56E872EF;
 Reference = P91;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80569;
+TimeStamp = /56E7CDF7;
 Reference = P92;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80539;
+TimeStamp = /56E7CDF1;
 Reference = P93;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC6B;
+TimeStamp = /56E7CDEB;
 Reference = P94;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE21;
+TimeStamp = /56E7CDE5;
 Reference = P95;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80563;
+TimeStamp = /56E7CDDF;
 Reference = P96;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8053F;
+TimeStamp = /56E7CDD9;
 Reference = P97;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC71;
+TimeStamp = /56E7CDD3;
 Reference = P98;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE1B;
+TimeStamp = /56E7CDCD;
 Reference = P99;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8055D;
+TimeStamp = /56E7CDC7;
 Reference = P100;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC77;
+TimeStamp = /56E7CDC1;
 Reference = P101;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE15;
+TimeStamp = /56E7CDBB;
 Reference = P102;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80557;
+TimeStamp = /56E7CDB5;
 Reference = P103;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC7D;
+TimeStamp = /56E7CDAF;
 Reference = P104;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE0F;
+TimeStamp = /56E7CDA9;
 Reference = P105;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80551;
+TimeStamp = /56E7CDA3;
 Reference = P106;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE09;
+TimeStamp = /56E7CD9D;
 Reference = P107;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8054B;
+TimeStamp = /56E7CE57;
 Reference = P108;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE03;
+TimeStamp = /56E7CE51;
 Reference = P109;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80545;
+TimeStamp = /56E7CE4B;
 Reference = P110;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CDFD;
+TimeStamp = /56E7CE45;
 Reference = P111;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8051B;
+TimeStamp = /56E7CE3F;
 Reference = P112;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80521;
+TimeStamp = /56E7CE39;
 Reference = P113;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80527;
+TimeStamp = /56E7CE33;
 Reference = P114;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC83;
+TimeStamp = /56E7CE2D;
 Reference = P115;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8052D;
+TimeStamp = /56E7CE27;
 Reference = P116;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC89;
+TimeStamp = /56E7CE21;
 Reference = P117;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEB7;
+TimeStamp = /56E7CE1B;
 Reference = P118;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC8F;
+TimeStamp = /56E7CE15;
 Reference = P119;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805FF;
+TimeStamp = /56E7CE0F;
 Reference = P120;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEB1;
+TimeStamp = /56E7CE09;
 Reference = P121;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC95;
+TimeStamp = /56E7CE03;
 Reference = P122;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805F9;
+TimeStamp = /56E7CDFD;
 Reference = P123;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEAB;
+TimeStamp = /56E7CEB7;
 Reference = P124;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CC9B;
+TimeStamp = /56E7CEB1;
 Reference = P125;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805F3;
+TimeStamp = /56E7CEAB;
 Reference = P126;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
@@ -890,511 +960,511 @@ IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCA1;
+TimeStamp = /56E7CE9F;
 Reference = P128;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805ED;
+TimeStamp = /56E7CE99;
 Reference = P129;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE9F;
+TimeStamp = /56E7CE93;
 Reference = P130;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCA7;
+TimeStamp = /56E7CE8D;
 Reference = P131;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805E7;
+TimeStamp = /56E7CE87;
 Reference = P132;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE99;
+TimeStamp = /56E7CE81;
 Reference = P133;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80605;
+TimeStamp = /56E7CE7B;
 Reference = P134;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCAD;
+TimeStamp = /56E7CE75;
 Reference = P135;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805E1;
+TimeStamp = /56E7CE6F;
 Reference = P136;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE93;
+TimeStamp = /56E7CE69;
 Reference = P137;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8060B;
+TimeStamp = /56E7CE63;
 Reference = P138;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCB3;
+TimeStamp = /56E7CE5D;
 Reference = P139;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805DB;
+TimeStamp = /56E7E09A;
 Reference = P140;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE8D;
+TimeStamp = /56E7E094;
 Reference = P141;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80611;
+TimeStamp = /56E7E08E;
 Reference = P142;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCB9;
+TimeStamp = /56E7E088;
 Reference = P143;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805D5;
+TimeStamp = /56E7E082;
 Reference = P144;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE87;
+TimeStamp = /56E7E07C;
 Reference = P145;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80617;
+TimeStamp = /56E7E076;
 Reference = P146;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCBF;
+TimeStamp = /56E7E070;
 Reference = P147;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805CF;
+TimeStamp = /56E7E06A;
 Reference = P148;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE81;
+TimeStamp = /56E7E064;
 Reference = P149;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCC5;
+TimeStamp = /56E7E05E;
 Reference = P150;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805C9;
+TimeStamp = /56E7E058;
 Reference = P151;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE7B;
+TimeStamp = /56E7E052;
 Reference = P152;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCCB;
+TimeStamp = /56E7E04C;
 Reference = P153;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805C3;
+TimeStamp = /56E7E046;
 Reference = P154;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE75;
+TimeStamp = /56E7E040;
 Reference = P155;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCD1;
+TimeStamp = /56E7E57C;
 Reference = P156;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805BD;
+TimeStamp = /56E7E576;
 Reference = P157;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE6F;
+TimeStamp = /56E7E570;
 Reference = P158;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCD7;
+TimeStamp = /56E7E56A;
 Reference = P159;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8061D;
+TimeStamp = /56E7E564;
 Reference = P160;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805B7;
+TimeStamp = /56E7E55E;
 Reference = P161;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE69;
+TimeStamp = /56E7E558;
 Reference = P162;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CCDD;
+TimeStamp = /56E7F076;
 Reference = P163;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80623;
+TimeStamp = /56E7F070;
 Reference = P164;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805B1;
+TimeStamp = /56E7F0A0;
 Reference = P165;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE63;
+TimeStamp = /56E7F09A;
 Reference = P166;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80629;
+TimeStamp = /56E7F094;
 Reference = P167;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805AB;
+TimeStamp = /56E7F08E;
 Reference = P168;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CE5D;
+TimeStamp = /56E7F088;
 Reference = P169;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8062F;
+TimeStamp = /56E7F082;
 Reference = P170;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E805A5;
+TimeStamp = /56E7F07C;
 Reference = P171;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E09A;
+TimeStamp = /56E7FBEF;
 Reference = P172;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E094;
+TimeStamp = /56E7FBE9;
 Reference = P173;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD13;
+TimeStamp = /56E7FBE3;
 Reference = P174;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E08E;
+TimeStamp = /56E7FBDD;
 Reference = P175;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD19;
+TimeStamp = /56E7FBD7;
 Reference = P176;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E088;
+TimeStamp = /56E7FBD1;
 Reference = P177;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80635;
+TimeStamp = /56E8088E;
 Reference = P178;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD1F;
+TimeStamp = /56E80888;
 Reference = P179;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E082;
+TimeStamp = /56E80882;
 Reference = P180;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8063B;
+TimeStamp = /56E8087C;
 Reference = P181;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD25;
+TimeStamp = /56E80876;
 Reference = P182;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E07C;
+TimeStamp = /56E85228;
 Reference = P183;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80641;
+TimeStamp = /56E8522E;
 Reference = P184;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD2B;
+TimeStamp = /56E85234;
 Reference = P185;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E076;
+TimeStamp = /56E8523A;
 Reference = P186;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80647;
+TimeStamp = /56E85240;
 Reference = P187;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD31;
+TimeStamp = /56E85246;
 Reference = P188;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E070;
+TimeStamp = /56E8524C;
 Reference = P189;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD37;
+TimeStamp = /56E85252;
 Reference = P190;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E06A;
+TimeStamp = /56E85258;
 Reference = P191;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E064;
+TimeStamp = /56E8525E;
 Reference = P192;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E05E;
+TimeStamp = /56E85264;
 Reference = P193;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E058;
+TimeStamp = /56E8526A;
 Reference = P194;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8064D;
+TimeStamp = /56E85270;
 Reference = P195;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD3D;
+TimeStamp = /56E85276;
 Reference = P196;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E052;
+TimeStamp = /56E86206;
 Reference = P197;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80653;
+TimeStamp = /56E8620C;
 Reference = P198;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD43;
+TimeStamp = /56E8064D;
 Reference = P199;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E04C;
+TimeStamp = /56E80653;
 Reference = P200;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
@@ -1408,703 +1478,780 @@ IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD49;
+TimeStamp = /56E8065F;
 Reference = P202;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E046;
+TimeStamp = /56E84765;
 Reference = P203;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8065F;
+TimeStamp = /56E8476B;
 Reference = P204;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD4F;
+TimeStamp = /56E84771;
 Reference = P205;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E040;
+TimeStamp = /56E84777;
 Reference = P206;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD55;
+TimeStamp = /56E86BFD;
 Reference = P207;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E57C;
+TimeStamp = /56E86C03;
 Reference = P208;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD5B;
+TimeStamp = /56E86C09;
 Reference = P209;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E576;
+TimeStamp = /56E86C0F;
 Reference = P210;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD61;
+TimeStamp = /56E8061D;
 Reference = P211;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E570;
+TimeStamp = /56E80623;
 Reference = P212;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD67;
+TimeStamp = /56E80629;
 Reference = P213;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E84765;
+TimeStamp = /56E8062F;
 Reference = P214;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E56A;
+TimeStamp = /56E80635;
 Reference = P215;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8476B;
+TimeStamp = /56E8063B;
 Reference = P216;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E564;
+TimeStamp = /56E80641;
 Reference = P217;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E84771;
+TimeStamp = /56E80647;
 Reference = P218;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E55E;
+TimeStamp = /56E804BB;
 Reference = P219;
-ValeurCmp = CONNECTOR;
+ValeurCmp = CROSSTIE 1 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E84777;
+TimeStamp = /56E804C1;
 Reference = P220;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH1 BUS 1 LOAD 3 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7E558;
+TimeStamp = /56E804C7;
 Reference = P221;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 1 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F076;
+TimeStamp = /56E804CD;
 Reference = P222;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 1 LOAD 2 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD6D;
+TimeStamp = /56E804D3;
 Reference = P223;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 3 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F070;
+TimeStamp = /56E804D9;
 Reference = P224;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 2 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD73;
+TimeStamp = /56E804DF;
 Reference = P225;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 1 LOAD 1 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F0A0;
+TimeStamp = /56E804E5;
 Reference = P226;
-ValeurCmp = CONNECTOR;
+ValeurCmp = MAIN BUS VOLTAGE;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD79;
+TimeStamp = /56E804EB;
 Reference = P227;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 1 VOLTAGE;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F09A;
+TimeStamp = /56E804F1;
 Reference = P228;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 1 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E86BFD;
+TimeStamp = /56E804F7;
 Reference = P229;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 1 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD7F;
+TimeStamp = /56E804FD;
 Reference = P230;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 1 VOLTAGE;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F094;
+TimeStamp = /56E80503;
 Reference = P231;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 2 VOLTAGE;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E86C03;
+TimeStamp = /56E80509;
 Reference = P232;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 2 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD85;
+TimeStamp = /56E8050F;
 Reference = P233;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 2 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F08E;
+TimeStamp = /56E80515;
 Reference = P234;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 2 VOLTAGE;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E86C09;
+TimeStamp = /56E80533;
 Reference = P235;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 3 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD8B;
+TimeStamp = /56E80539;
 Reference = P236;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 2 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F088;
+TimeStamp = /56E8053F;
 Reference = P237;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 1 BUS 2 LOAD 1 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E86C0F;
+TimeStamp = /56E8051B;
 Reference = P238;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 1 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD91;
+TimeStamp = /56E80521;
 Reference = P239;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 2 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F082;
+TimeStamp = /56E80527;
 Reference = P240;
-ValeurCmp = CONNECTOR;
+ValeurCmp = BRANCH 2 BUS 2 LOAD 3 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CD97;
+TimeStamp = /56E8052D;
 Reference = P241;
-ValeurCmp = CONNECTOR;
+ValeurCmp = CROSSTIE 2 CURRENT;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7F07C;
+TimeStamp = /56E80605;
 Reference = P242;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7FBEF;
+TimeStamp = /56E8060B;
 Reference = P243;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7FBE9;
+TimeStamp = /56E80611;
 Reference = P244;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEBD;
+TimeStamp = /56E80617;
 Reference = P245;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7FBE3;
+TimeStamp = /56E8128B;
 Reference = P246;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEC3;
+TimeStamp = /56E81285;
 Reference = P247;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7FBDD;
+TimeStamp = /56E8127F;
 Reference = P248;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEC9;
+TimeStamp = /56E81279;
 Reference = P249;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7FBD7;
+TimeStamp = /56E81273;
 Reference = P250;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CECF;
+TimeStamp = /56E8126D;
 Reference = P251;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7FBD1;
+TimeStamp = /56E81267;
 Reference = P252;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CED5;
+TimeStamp = /56E81261;
 Reference = P253;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8088E;
+TimeStamp = /56E804B5;
 Reference = P254;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEDB;
+TimeStamp = /56E804AF;
 Reference = P255;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80888;
+TimeStamp = /56E804A9;
 Reference = P256;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEE1;
+TimeStamp = /56E804A3;
 Reference = P257;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80882;
+TimeStamp = /56E8049D;
 Reference = P258;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E7CEE7;
+TimeStamp = /56E80497;
 Reference = P259;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8087C;
+TimeStamp = /56E80491;
 Reference = P260;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80876;
+TimeStamp = /56E8048B;
 Reference = P261;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80665;
+TimeStamp = /56E80485;
 Reference = P262;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8066B;
+TimeStamp = /56E8047F;
 Reference = P263;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85228;
+TimeStamp = /56E80479;
 Reference = P264;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8522E;
+TimeStamp = /56E80473;
 Reference = P265;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80671;
+TimeStamp = /56E8046D;
 Reference = P266;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80677;
+TimeStamp = /56E80467;
 Reference = P267;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85234;
+TimeStamp = /56E80461;
 Reference = P268;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8523A;
+TimeStamp = /56E8045B;
 Reference = P269;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8067D;
+TimeStamp = /56E8059F;
 Reference = P270;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80683;
+TimeStamp = /56E80599;
 Reference = P271;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85240;
+TimeStamp = /56E80593;
 Reference = P272;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8128B;
+TimeStamp = /56E8058D;
 Reference = P273;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85246;
+TimeStamp = /56E80587;
 Reference = P274;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E81285;
+TimeStamp = /56E80581;
 Reference = P275;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8127F;
+TimeStamp = /56E8057B;
 Reference = P276;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80689;
+TimeStamp = /56E80575;
 Reference = P277;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E81279;
+TimeStamp = /56E8056F;
 Reference = P278;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8068F;
+TimeStamp = /56E80569;
 Reference = P279;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8524C;
+TimeStamp = /56E80563;
 Reference = P280;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E81273;
+TimeStamp = /56E8055D;
 Reference = P281;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85252;
+TimeStamp = /56E80557;
 Reference = P282;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8126D;
+TimeStamp = /56E80551;
 Reference = P283;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E81267;
+TimeStamp = /56E8054B;
 Reference = P284;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E80695;
+TimeStamp = /56E80545;
 Reference = P285;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E81261;
+TimeStamp = /56E805FF;
 Reference = P286;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8069B;
+TimeStamp = /56E805F9;
 Reference = P287;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85258;
+TimeStamp = /56E805F3;
 Reference = P288;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8525E;
+TimeStamp = /56E805ED;
 Reference = P289;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E806A1;
+TimeStamp = /56E805E7;
 Reference = P290;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E806A7;
+TimeStamp = /56E805E1;
 Reference = P291;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85264;
+TimeStamp = /56E805DB;
 Reference = P292;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8526A;
+TimeStamp = /56E805D5;
 Reference = P293;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E872DD;
+TimeStamp = /56E805CF;
 Reference = P294;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E872E3;
+TimeStamp = /56E805C9;
 Reference = P295;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85270;
+TimeStamp = /56E805C3;
 Reference = P296;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E872E9;
+TimeStamp = /56E805BD;
 Reference = P297;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E85276;
+TimeStamp = /56E805B7;
 Reference = P298;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E872EF;
+TimeStamp = /56E805B1;
 Reference = P299;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E86206;
+TimeStamp = /56E805AB;
 Reference = P300;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /56E8620C;
+TimeStamp = /56E805A5;
 Reference = P301;
 ValeurCmp = CONNECTOR;
 IdModule  = MOLEX-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F37FDC;
+Reference = P302;
+ValeurCmp = 24Vin;
+IdModule  = Screw Terminal 8191;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F37FE9;
+Reference = P303;
+ValeurCmp = GND;
+IdModule  = Screw Terminal 8191;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3854B;
+Reference = P304;
+ValeurCmp = +15V;
+IdModule  = Screw Terminal 8191;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38551;
+Reference = P305;
+ValeurCmp = -15V;
+IdModule  = Screw Terminal 8191;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3CCA3;
+Reference = R1;
+ValeurCmp = ctrl pulldown;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3B8F8;
+Reference = R2;
+ValeurCmp = 2.2k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3B905;
+Reference = R3;
+ValeurCmp = 2.2k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3D170;
+Reference = R4;
+ValeurCmp = 2.2k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F3C6DF;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = L101011MS02_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F37FCD;
+Reference = U1;
+ValeurCmp = PYB20;
+IdModule  = PYB20;
+EndCmp
+
+BeginCmp
+TimeStamp = /56F38CF8;
+Reference = VR1;
+ValeurCmp = VR;
+IdModule  = B722 series;
 EndCmp
 
 EndListe
