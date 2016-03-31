@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/7/2016 3:57:20 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/31/2016 12:43:14 AM
 
 BeginCmp
 TimeStamp = /5609518C;
@@ -271,6 +271,34 @@ TimeStamp = /56D7C14E;
 Reference = D12;
 ValeurCmp = LED_RED;
 IdModule  = 1209;
+EndCmp
+
+BeginCmp
+TimeStamp = /56FCAE5B;
+Reference = D13;
+ValeurCmp = DIODESCH;
+IdModule  = R6;
+EndCmp
+
+BeginCmp
+TimeStamp = /56FCAE68;
+Reference = D14;
+ValeurCmp = DIODESCH;
+IdModule  = R6;
+EndCmp
+
+BeginCmp
+TimeStamp = /56FCB8E8;
+Reference = D15;
+ValeurCmp = DIODESCH;
+IdModule  = R6;
+EndCmp
+
+BeginCmp
+TimeStamp = /56FCBE85;
+Reference = D16;
+ValeurCmp = DIODESCH;
+IdModule  = R6;
 EndCmp
 
 BeginCmp
